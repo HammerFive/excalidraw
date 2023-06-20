@@ -1255,7 +1255,7 @@ const renderLinkIcon = (
       );
       linkCanvasCacheContext.fillStyle = "#fff";
       linkCanvasCacheContext.fillRect(0, 0, width, height);
-      linkCanvasCacheContext.drawImage(EXTERNAL_LINK_IMG, 0, 0, width, height);
+      linkCanvasCacheContext.drawImage(EXTERNAL_LINK_IMG, 0, 0, 0, 0);
       linkCanvasCacheContext.restore();
       context.drawImage(
         linkCanvasCache,
